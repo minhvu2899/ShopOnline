@@ -1,0 +1,56 @@
+@import "./color.module.scss";
+.header {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  &-logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  &-menu-list {
+    display: flex;
+    list-style: none;
+    font-size: 1.8rem;
+  }
+  &-menu-item {
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+  }
+  &-menu-item:hover {
+    cursor: pointer;
+    background-color: $primary-color;
+  }
+  &-cta {
+    display: flex;
+  }
+  &__user {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    background-color: #c1c6c9;
+    padding: 6px;
+    border-radius: 1rem;
+  }
+  &__user-info {
+    font-size: 1.4rem;
+  }
+  &__user-avatar {
+    border-radius: 50%;
+    align-self: center;
+  }
+  &__auth-signout {
+    color: #363e44;
+    text-decoration: none;
+    // border-radius: 2rem;
+    font-weight: 500;
+    // background-color: #363e44;
+    font-size: 1.2rem;
+  }
+  &__cta {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+}

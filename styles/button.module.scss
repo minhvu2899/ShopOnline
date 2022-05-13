@@ -1,0 +1,9 @@
+@import "./color.module.scss";
+.btn {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 2rem 2.5rem;
+  border-radius: 0.5rem;
+  background-color: $primary-color;
+}
